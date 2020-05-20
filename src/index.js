@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './components/Form'
+import ParentCompnenet from './components/ParentComponent';
 
 ReactDOM.render(
   <div>
-    <Form />
+    <ParentCompnenet />
   </div>,
   document.getElementById('root')
 );
